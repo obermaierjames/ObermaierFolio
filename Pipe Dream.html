@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Obermaier Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- modernizr -->
+    <script src="js/modernizr.js"></script>
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end Preloader -->
+
+    <div class="container-fluid">
+       <!-- box-header -->
+        <header class="box-header">
+            <!-- box-nav -->
+            <a class="box-primary-nav-trigger" href="#0">
+                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+            </a>
+            <!-- box-primary-nav-trigger -->
+        </header>
+        <!-- end box-header -->
+        
+        <!-- nav -->
+        <nav>
+            <ul class="box-primary-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="portfolio.html">portfolio</a><i class="ion-ios-circle-filled color"></i></li>
+
+                <li class="box-social"><a href="https://www.linkedin.com/in/james-obermaier/" target = "blank"><i class="ion-social-linkedin"></i></a></li>
+                <li class="box-social"><a href="https://www.youtube.com/@ObermaierJames" target = "blank"><i class="ion-social-youtube"></i></a></li>
+                <li class="box-social"><a href="Obermaier Resume.pdf" target = "blank"><i class="ion-document"></i></a></li>
+            </ul>
+        </nav>
+        <!-- end nav -->
+    </div>
+    
+    <!-- top-bar -->
+    <div class="top-bar">
+        <h1>The Pipe Dream</h1>
+        <p><a href="index.html">Home</a> / <a href="portfolio.html">Portfolio</a> / Pipe Dream</p>
+    </div>
+    <!-- end top-bar -->
+    
+    <!-- main-container -->
+    <div class="container main-container">
+        <div class="col-md-12">
+            <img src="C:\Users\James\Downloads\ObermaierFolio\All Files\img\Pipe Dream Image.png" alt="" class="img-responsive" />
+            <div class="h-30"></div>
+        </div>
+
+        <div class="col-md-12">
+            <h3 class="text-uppercase">The Pipe Dream</h3>
+            <h5>Capstone project for my music minor at WPI</h5>
+            <div class="h-30"></div>
+        </div>
+
+        <div class="col-md-9">
+            <p>"Pipe Dream" is a musical robot which uses electromagnetic actuation to resonate aluminum bars, producing a beautiful, glass-like tone reminiscent 
+                of a finger rubbing the edge of a wine glass. The project began with the testing of different actuation methods, ultimately settling on electromagnetic 
+                actuation for its simplicity and effectiveness. This choice significantly reduced the mechanical complexity and noise, allowing the focus to be on the 
+                purity of the sound.</p>
+
+            <p>In its development, "Pipe Dream" went through several iterations, each refining the instrument's capabilities. The first version tested the optimal 
+                distance and current for resonance, while the second iteration introduced polyphony by using an Arduino to control multiple electromagnets. 
+                Despite challenges with digital signal outputs, the project overcame them by utilizing PWM (Pulse Width Modulation) to generate a simulated continuous 
+                signal. The final iteration saw the transition to a Teensy 4.0 microcontroller, which allowed the instrument to accept MIDI input, enabling more complex 
+                musical expressions and seamless integration with digital audio workspaces.</p>
+                
+            <p>The result is a fully functional proof-of-concept that can play a full octave of notes, from C6 to B6, with an ethereal and bright tone. The importance 
+                of this project, for me, is its flexibility. By using the simple pairing of an electromagnet and a permanent, almost any object can be actuated to 
+                produce music. "Pipe Dream" represents just one application of this actuation method and can help inspire not only future iterations of this project, 
+                but new instruments/installations that require an ethereal/dream-like quality of tone. To accompany this project, I wrote a paper which documents the 
+                progress of the project as well as a video which includes visuals and audio to better understand each step. I look forward to seeing how far this project
+                can go!</p>
+
+            <p>Check out more info on my professor's blog page linked to the right!</p>
+        </div>
+
+        <div class="col-md-3">
+            <ul class="cat-ul">
+                <li><i class="ion-ios-circle-filled"></i> Musical Machines</li>
+                <li><i class="ion-ios-circle-filled"></i> Arduino</li>
+                <li><i class="ion-ios-circle-filled"></i> Design</li>
+                <li><i class="ion-ios-circle-filled"></i> Research</li>
+            </ul>
+            <div class="h-10"></div>
+            <h4>Check it out the blog post!</h4>
+            <ul class="social-ul">
+                <li class="box-social"><a href="https://wp.wpi.edu/musicalmachines/2024/06/01/pipe-dream/" target = "blank"><i class="ion-document-text"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- end main-container -->
+
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <h3 class="text-uppercase">contact me</h3>
+            <div class="contact-info">
+                <p><i class="ion-android-call"></i>631.923.5563</p>
+                <p><i class="ion-ios-email"></i>obermaierjames@gmail.com</p>
+                <p><i class="ion-ios-location"></i>Boston Area</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="container-fluid">
+            <p class="copyright">ObermaierFolio</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+    
+    <!-- back to top -->
+    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <!-- end back to top -->
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+
+    <!--  custom script -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
